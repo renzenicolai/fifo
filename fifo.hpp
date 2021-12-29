@@ -17,7 +17,7 @@ template <typename Type> class Fifo {
         }
 
         ~Fifo() {
-            delete buffer_;
+            delete[] buffer_;
         }
 
         /* Reader */
